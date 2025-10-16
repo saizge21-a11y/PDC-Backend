@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js",
+    "build": "tsc",
+  "start": "node dist/index.js",
     "dev": "nodemon --watch src --exec \"ts-node-esm\" src/index.ts"
   },
   "engines": {
@@ -20,7 +20,8 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mysql2": "^3.15.2",
-    "sequelize": "^6.37.7"
+    "sequelize": "^6.37.7",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
